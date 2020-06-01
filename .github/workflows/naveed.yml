@@ -23,7 +23,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Install NodeJS
-      run: actions/setup-node@v1.4.2
+      run: actions/setup-node@v2-beta
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
